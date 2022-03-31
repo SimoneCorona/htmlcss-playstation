@@ -45,7 +45,7 @@ header{
 }
 /* MAIN */
 main{
-    padding-top: 120px;
+    padding-top: 100px;
 
 }
 /* jumbotron */
@@ -61,4 +61,8 @@ main{
 }
 .returnal-logo{
     width: 100%;
+}
+.ms_product_item img{
+    width: 100%;
+    border-radius: 5%;
 }
