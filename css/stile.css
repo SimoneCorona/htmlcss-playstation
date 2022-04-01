@@ -80,6 +80,7 @@ header{
 /* MAIN */
 main{
     padding-top: 100px;
+    margin-bottom: 3em;
 
 }
 /* jumbotron */
@@ -177,5 +178,6 @@ main{
 }
 /* FOOTER */
 footer{
+    color: white;
     background-color: #00439C;
 }
