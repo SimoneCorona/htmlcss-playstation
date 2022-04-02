@@ -1,6 +1,6 @@
 /* COMMON */
 .ms_item img{
-    width: 100%;
+    width: 60%;
 }
 /* buttons */
 .ms_btn{
@@ -47,6 +47,12 @@
     background-color: white;
     border-color: white;
 }
+.ms_btn-black:hover{
+    padding: ;
+}
+
+
+
 /* fonts */
 html{
     font-size: 100%;
@@ -108,6 +114,12 @@ main{
     width: 100%;
     border-radius: 5%;
 }
+.product_imgs .ms_product_item:hover{
+    padding: 2px;
+    border: 3px solid #2D64E6;
+    border-radius: 5%;
+}
+
 /* explore the ps5 */
 .explore_ps h5{
     color: #0072CE;
