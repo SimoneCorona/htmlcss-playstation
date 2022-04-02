@@ -86,7 +86,7 @@ main{
 /* jumbotron */
 .ms_jumbotron{
     padding: 15rem 0 5rem;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     display: flex;
     align-items: center;
     color: white;
@@ -178,6 +178,28 @@ main{
 }
 /* FOOTER */
 footer{
+    padding: 4em 0;
     color: white;
     background-color: #00439C;
+}
+.logo_ps_foot{
+    width: 100px;
+}
+.ms_lang{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5em;
+}
+.logo_language{
+    width: 20px;
+}
+footer ul li a{
+    text-decoration: none;
+}
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+footer a{
+    color: inherit;
 }
