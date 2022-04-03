@@ -47,11 +47,15 @@
     background-color: white;
     border-color: white;
 }
+/* outline buttons */
 .ms_btn-black:hover{
-    padding: ;
+    outline: 3px solid black;
+    outline-offset: 3px;
 }
-
-
+.ms_btn-red:hover{
+    outline: 3px solid #CD3D0F;
+    outline-offset: 3px;
+}
 
 /* fonts */
 html{
@@ -114,12 +118,17 @@ main{
     width: 100%;
     border-radius: 5%;
 }
-.product_imgs .ms_product_item:hover{
-    padding: 2px;
-    border: 3px solid #2D64E6;
+.ms_outline_img {
+    outline-offset: 4px;
+    outline: 4px solid #2D64E6;
     border-radius: 5%;
 }
-
+.ms_translate_img{
+    transition: 0.5s;
+}
+.ms_translate_img:hover{
+    margin-top: -20px;
+}
 /* explore the ps5 */
 .explore_ps h5{
     color: #0072CE;
@@ -215,3 +224,4 @@ footer a:hover {
 footer a{
     color: inherit;
 }
+
