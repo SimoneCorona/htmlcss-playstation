@@ -142,12 +142,20 @@ main{
     width: 100%;
 }
 /* accessories ps5 */
-.five_imgs p{
-    color: grey;
+.five_imgs .ms_product_item{
+    filter: opacity(60%);
 }
-
-
-
+.ms_first_ps5_bb{
+    border-bottom: 3px solid #00439C;
+}
+.ms_first_ps5_bb .ms_product_item{
+    filter: none;
+}
+.five_imgs_effect:hover{
+    filter: none;
+    border-bottom: 3px solid #00439C;
+    cursor: pointer;
+}
 /* second jumbotron */
 .ms_jumbotron_2{
     padding: 10rem 0 5rem;
@@ -188,6 +196,10 @@ main{
     .play_plus-banner{
         display: none;
     }    
+}
+/* new discount */
+.ms_product_item2 img{
+    width: 100%;
 }
 /* playstation now */
 .ms_now{
